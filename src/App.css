@@ -87,6 +87,19 @@
   justify-content: center;
 }
 
+
+.button.secondary {
+  background: transparent;
+  border: 1px solid #334155;
+  color: #e5e7eb;
+}
+
+.button.secondary:hover {
+  background: #020617;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+
 /* 📱 Responsive */
 @media (max-width: 480px) {
   .card {
@@ -97,3 +110,4 @@
     font-size: 1.4rem;
   }
 }
+
